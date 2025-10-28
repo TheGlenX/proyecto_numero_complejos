@@ -33,4 +33,7 @@ class ComplexNumber {
         final double imaginaryNumerator = other.getReal() * this.getImaginary() - this.getReal() * other.getImaginary();
         return new ComplexNumber(realNumerator / commonDenominator, imaginaryNumerator / commonDenominator);
     }
+    @Override
+    public String toString() {
+    return this.real + " + " + this.imaginary + "i";
 }
