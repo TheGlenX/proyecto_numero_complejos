@@ -11,5 +11,11 @@ public class Main {
 
         ComplexNumber resta = cn1.sub(cn2);
         System.out.println("La resta es: " + resta);
+
+        ComplexNumber multiplicacion = cn1.times(cn2);
+        System.out.println("La multiplicacion es: " + multiplicacion);
+
+        ComplexNumber division = cn1.div(cn2);
+        System.out.println("La divison es: " + division);
     }
 }
